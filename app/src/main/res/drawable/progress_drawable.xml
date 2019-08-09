@@ -6,7 +6,8 @@
         <shape android:shape="rectangle"  >
             <solid
                     android:color="#fff" />
-            <stroke android:color="#000" android:width="2dp"/>
+            <!--Border color for the seek bar-->
+            <stroke android:color="@color/seekbar_color" android:width="2dp"/>
             <corners android:radius="8dp"/>
         </shape>
     </item>
